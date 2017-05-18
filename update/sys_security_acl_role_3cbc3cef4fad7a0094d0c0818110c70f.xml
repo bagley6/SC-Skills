@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-22 21:00:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3cbc3cef4fad7a0094d0c0818110c70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_sc_skills_table.x_snc_sc_skills.user</sys_name>
+        <sys_package display_value="SC Skills" source="x_snc_sc_skills">e0bc78ef4fad7a0094d0c0818110c77b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SC Skills">e0bc78ef4fad7a0094d0c0818110c77b</sys_scope>
+        <sys_security_acl display_value="x_snc_sc_skills_table">f8bc3cef4fad7a0094d0c0818110c70b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3cbc3cef4fad7a0094d0c0818110c70f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-22 21:00:48</sys_updated_on>
+        <sys_user_role display_value="x_snc_sc_skills.user" name="x_snc_sc_skills.user">60bcf8ef4fad7a0094d0c0818110c7f2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

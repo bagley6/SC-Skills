@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Skill Group" max_length="40" name="x_snc_sc_skills_skill_group" type="collection">
+        <element label="Skill Group" max_length="40" name="skill_group" type="string"/>
+    </element>
+</database>

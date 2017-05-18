@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="76ce74634fed7a0094d0c0818110c797" sys_domain="global" table="x_snc_sc_skills_sc_skill_level" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-03-22 21:09:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ece74634fed7a0094d0c0818110c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_sc_skills_sc_skill_level" name="x_snc_sc_skills_sc_skill_level" sys_domain="global" view="Default view">76ce74634fed7a0094d0c0818110c797</sys_ui_form>
+            <sys_ui_section caption="Select user and Skill" display_value="Select user and Skill" name="x_snc_sc_skills_sc_skill_level" sys_domain="global" view="Default view">6f7e30634fed7a0094d0c0818110c7be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-03-22 21:09:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-03-22 21:09:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ace74634fed7a0094d0c0818110c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_sc_skills_sc_skill_level" name="x_snc_sc_skills_sc_skill_level" sys_domain="global" view="Default view">76ce74634fed7a0094d0c0818110c797</sys_ui_form>
+            <sys_ui_section caption="Select Skill Level OR Major/Minor" display_value="Select Skill Level OR Major/Minor" name="x_snc_sc_skills_sc_skill_level" sys_domain="global" view="Default view">3ace74634fed7a0094d0c0818110c796</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-03-22 21:09:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_sc_skills_sc_skill_level</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-03-22 21:09:58</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76ce74634fed7a0094d0c0818110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_sc_skills_sc_skill_level</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SC Skills" source="x_snc_sc_skills">e0bc78ef4fad7a0094d0c0818110c77b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SC Skills">e0bc78ef4fad7a0094d0c0818110c77b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_76ce74634fed7a0094d0c0818110c797</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-03-22 21:09:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

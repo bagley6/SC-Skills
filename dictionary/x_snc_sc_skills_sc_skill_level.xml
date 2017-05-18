@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SC Skill Level" max_length="40" name="x_snc_sc_skills_sc_skill_level" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Skill" mandatory="true" max_length="32" name="skill" reference="x_snc_sc_skills_table" type="reference"/>
+        <element choice="1" label="Skill Level" max_length="40" name="skill_level" type="choice">
+            <choice>
+                <element hint="0 - Cannot discuss topic or describe benefits of ServiceNow approach to area" label="0" value="0"/>
+                <element hint="1 - Can demonstrate this topic effectively" label="1" value="1"/>
+                <element hint="2 - Can execute a PoV on this topic effectively" label="2" value="2"/>
+                <element hint="2 - Can execute a PoV on this topic effectively" label="3" value="3"/>
+            </choice>
+        </element>
+        <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Major or Minor" max_length="40" name="u_choice_1" type="choice">
+            <choice>
+                <element label="Major" sequence="0" value="Major"/>
+                <element label="Minor" sequence="1" value="Minor"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
